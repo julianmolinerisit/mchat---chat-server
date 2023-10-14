@@ -1,0 +1,35 @@
+.login__bg {
+    width: 100%;
+    height: auto;
+    margin: 80px 0px 0px 0px;
+}
+
+.btn-login{
+    background-color: rgb(140, 0, 255) !important;
+    border: 0px rgb(140, 0, 255) ;
+}
+
+.txt-signup{
+ color:  rgb(140, 0, 255);
+}
+
+
+
+@media (max-width: 599px) {
+.login__bg {
+    width: 100%;
+    height: auto;
+    margin: 20px 0px 20px 0px;
+}
+}
+
+
+
+@media (max-width: 799px) {
+    .login__bg {
+        width: 100%;
+        height: auto;
+        margin: 20px 0px 20px 0px;
+    }
+
+}

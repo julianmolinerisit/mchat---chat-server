@@ -1,0 +1,70 @@
+.signup__bg {
+  margin: 70px 0px 0px 20px;
+  width: 80%;
+  height: auto;
+}
+
+
+.signup-profile-pic__container {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.btn-signup {
+  background-color: rgb(140, 0, 255) !important;
+  border: 0px rgb(140, 0, 255);
+}
+
+.txt-signup {
+  color: rgb(140, 0, 255);
+}
+
+.signup-profile-pic {
+  width: 100px;
+  border-radius: 50%;
+  border: 2px solid gray;
+  object-fit: cover;
+  height: 100px;
+}
+
+.add-picture-icon {
+  position: absolute;
+  bottom: 0;
+  right: 10px;
+  color: green;
+  cursor: pointer;
+  z-index: 99;
+}
+
+
+
+@media (max-width: 799px) {
+  .signup__bg {
+    margin: 0px 0px 0px 30px;
+    width: 80%;
+    height: auto;
+  }
+
+  .form-text {
+    margin-top: 0.25rem;
+    font-size: 0.600em !important;
+  }
+
+}
+
+/* Estilos específicos para pantallas más pequeñas */
+@media (max-width: 599px) {
+  .signup__bg {
+      margin: 0px 0px 0px 30px;
+      width: 80%;
+      height: auto;
+      display: block; /* Asegurarse de que la imagen esté visible en dispositivos móviles */
+  }
+
+  .form-text {
+    margin-top: 0.25rem;
+    font-size: 0.800em;
+  }
+}

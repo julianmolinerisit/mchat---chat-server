@@ -1,0 +1,96 @@
+/* Reset de estilos para asegurarse de que no haya estilos predeterminados que afecten */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos globales */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilos para la página de Contacto */
+  .contact-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+  }
+  
+  .contact-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .title-container1 {
+    margin-bottom: 20px;
+  }
+  
+  .title-container h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Estilos para el formulario */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .form-label {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 5px;
+    margin-top: 10px;
+  }
+  
+  .form-control {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .btn-contact {
+    background-color: rgb(140, 0, 255);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  /* Imagen de fondo (puedes ajustarla según tu necesidad) */
+  .contact__bg {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  /* Estilos responsivos */
+  @media (max-width: 799px) {
+    .contact-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .contact__bg {
+      margin-top: 20px;
+    }
+  
+    .contact-content {
+      padding: 20px 0;
+    }
+  
+    .title-container1 {
+      margin: 0;
+      padding: 0;
+    }
+
+
+}
+  

@@ -1,0 +1,92 @@
+/* Reset de estilos para asegurarse de que no haya estilos predeterminados que afecten */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos globales */
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+  }
+  
+  /* Estilos para la página de About Us */
+  .home-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: white;
+  }
+  
+  .home-content {
+    flex: 1;
+    padding: 20px;
+  }
+  
+  .title-container1 {
+    margin-bottom: 20px;
+  }
+  
+  .title-container1 h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .title-container1 p {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .btn-home {
+    background-color: rgb(140, 0, 255);
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .home-message-icon {
+    margin-left: 10px;
+  }
+  
+/* Imagen de fondo del astronauta */
+.home__bg1 {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;
+  }
+  
+  .home__bg-img {
+    max-width: 10%; /* Reduce el tamaño de la imagen a la mitad */
+    height: auto;
+  }
+  
+  /* ... (otros estilos) */
+  
+  
+  /* Estilos responsivos */
+  @media (max-width: 799px) {
+    .home-container {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .home__bg1 {
+      margin-top: 20px;
+    }
+  
+    .home-content {
+      padding: 20px 0;
+    }
+  
+    .title-container1 {
+      margin: 0;
+      padding: 0;
+    }
+  }
+  
